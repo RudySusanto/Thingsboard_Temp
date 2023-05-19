@@ -5,8 +5,8 @@
 #include <WiFi.h>
 // See https://thingsboard.io/docs/getting-started-guides/helloworld/
 #define THINGSBOARD_SERVER  "demo.thingsboard.io"
-#define WIFI_SSID "R_X3P"
-#define WIFI_PASSWORD "@RudySusanto"
+#define WIFI_SSID "YOUR_SSID_ID"
+#define WIFI_PASSWORD "YOUR_SSID_PASSWORD"
 #define LED_GREEN  14
 #define LED_YELLOW 12
 #define LED_RED    13
@@ -14,7 +14,7 @@
 #define LED_BUILTIN 33
 
 //put your token ID here
-#define THINGSBOARD_ACCESS_TOKEN "t5cFt4ZyUEO66RY06EfI" 
+#define THINGSBOARD_ACCESS_TOKEN "YOUR_DEVICE_TOKEN_FROM_THINGSBOARD" 
 
 WiFiClient espClient;
 ThingsBoard tb(espClient);
